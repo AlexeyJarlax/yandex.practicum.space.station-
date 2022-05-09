@@ -1,3 +1,5 @@
+package yandex.practicum.space.station;
+
 class Zarya extends Mir {
     protected Zarya() {
         energyReserve = 10;
