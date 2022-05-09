@@ -1,3 +1,5 @@
+package yandex.practicum.space.station;
+
 class Mir { // доступ к любым изменениям класса запрещён
     protected double oxygenLevel;
     protected double energyReserve;
