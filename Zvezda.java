@@ -1,4 +1,6 @@
-class Zvezda extends Zarya {
+package yandex.practicum.space.station;
+
+  class Zvezda extends Zarya {
     
     public Zvezda() { // доступ к изменению конструктора запрещён
         super();
@@ -10,8 +12,8 @@ class Zvezda extends Zarya {
     // разрешено переопределение методов
     @Override
     void activateModule() {
-        super.activateModule();
-        flushEnergy();
+        //super.activateModule();
+        //flushEnergy();
         turnSolarPanels();
     }
 }
