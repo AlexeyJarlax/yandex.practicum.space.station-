@@ -1,2 +1,2 @@
-# yandex.practicum.space.station-
+# java.yandex.practicum.space.station-
 ООП. Инкапсуляция и наследование
