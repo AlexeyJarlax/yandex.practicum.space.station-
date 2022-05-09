@@ -1,4 +1,4 @@
-class Zarya extends Mir { // доступ к любым изменениям класса запрещён
+class Zarya extends Mir {
     protected Zarya() {
         energyReserve = 10;
         oxygenLevel = 0;
