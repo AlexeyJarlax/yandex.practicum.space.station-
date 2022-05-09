@@ -1,3 +1,5 @@
+package yandex.practicum.space.station;
+
 public class Practicum {
     private static final double ACCEPTABLE_VIBRATION = 1;
 
