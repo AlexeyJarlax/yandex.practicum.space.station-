@@ -1,3 +1,5 @@
+package yandex.practicum.space.station;
+
 class ISS extends Zarya {
     // доступ к изменению параметров запрещён
     public ISS(double initialOxygenLevel, double initialEnergyLevel, double initialFuel) {
@@ -22,7 +24,7 @@ class ISS extends Zarya {
     // получен доступ к переопределению метода стабилизации
     @Override
     void stabilize() {
-        super.stabilize();
+        //super.stabilize();
         stabilizeBySmallEngines();
         stabilizeBySmallEngines();
         stabilizeBySmallEngines();
